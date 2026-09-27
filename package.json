@@ -1,0 +1,12 @@
+{
+  "name": "purchase-management-system",
+  "version": "1.0.0",
+  "description": "Complete Purchase Management System built with MERN Stack",
+  "scripts": {
+    "server": "npm run start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test:e2e": "node server/src/tests/e2e_test.js"
+  }
+}
